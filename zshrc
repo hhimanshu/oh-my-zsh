@@ -39,7 +39,7 @@ export PATH=/Library/Frameworks/Python.framework/Versions/Current/bin:/Users/hhi
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git mvn pip sprunge sublime virtualenvwrapper)
+plugins=(git mvn pip sprunge sublime)
 
 source $ZSH/oh-my-zsh.sh
 
