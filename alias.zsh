@@ -1,0 +1,12 @@
+alias rm='rm -i'
+alias cp='cp -rf'
+alias mv='mv -i'
+alias mkdir='mkdir -p'
+alias h='history'
+alias j='jobs -l'
+alias which='type -a'
+alias ..='cd ..'
+alias path='echo -e ${PATH//:/\\n}'
+alias du='du -kh'       # Makes a more readable output.
+alias df='df -kTh'
+alias lt='ls -ltr'
