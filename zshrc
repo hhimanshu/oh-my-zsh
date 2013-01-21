@@ -1,15 +1,15 @@
 # Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
-
-# Load all of the config files in ~/oh-my-zsh that end in .zsh
-# TIP: Add files you don't want in git to .gitignore
-for i in $ZSH/*zsh; do source $i; done;
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+export ZSH_THEME="agnoster"
+
+# Load all of the config files in ~/oh-my-zsh that end in .zsh
+# TIP: Add files you don't want in git to .gitignore
+for i in $ZSH/*zsh; do source $i; done;
 
 # Customize to your needs...
 export PATH=/Library/Frameworks/Python.framework/Versions/Current/bin:/Users/hhimanshu/.rvm/gems/ruby-1.9.2-p318/bin:/Users/hhimanshu/.rvm/gems/ruby-1.9.2-p318@global/bin:/Users/hhimanshu/.rvm/rubies/ruby-1.9.2-p318/bin:/Users/hhimanshu/.rvm/bin:/Users/hhimanshu/.rbenv/shims:/Users/hhimanshu/.rbenv/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/hhimanshu/.ec2/bin
@@ -41,5 +41,5 @@ export PATH=/Library/Frameworks/Python.framework/Versions/Current/bin:/Users/hhi
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git mvn pip sprunge sublime virtualenvwrapper)
 
-# source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
