@@ -11,7 +11,3 @@ alias du='du -kh'       # Makes a more readable output.
 alias df='df -kTh'
 alias lt='ls -ltr'
 alias reload='source ~/.zshrc'
-
-# Applications to run from command-line
-alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
-alias idea="/Applications/IntelliJ\ IDEA\ 11.app/Contents/MacOS/idea"
